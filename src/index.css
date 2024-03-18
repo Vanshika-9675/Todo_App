@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color:  #f4f1f1;
+}
+h1{
+	margin: 15px;
+	font-family: cursive;
+	text-align: center;
+}
+.parent{
+	display: flex;
+	justify-items: center;
+	align-items: center;
+}
+.container{
+	margin: auto;
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+input{
+   padding: 4px 150px 14px 14px;
+   outline: none;
+   background: rgb(173, 20, 104);
+   border: none;
+   border-radius: 20px;
+   border: rgba(0, 0, 0, 0.537) solid 3px;
+   color: white;
+}
+
+input::placeholder{
+  color: rgba(255, 255, 255, 0.715);
+  font-style: italic
+}
+
+input:focus{
+  border: rgba(0, 0, 0, 0.315) solid 3px;
+}
+
+
+.bg{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  height: 300px;
+  width: 350px;
+}
+
+.btn{
+  padding: 15px;
+  border-radius: 40px;
+  border: rgba(0, 0, 0, 0.537) dashed 3px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.674);
+  margin-left:5px ;
+}
+
+.btn:hover{
+  background: rgb(197, 214, 204);
+  color: rgba(0, 0, 0, 0.806);
+  border: rgba(0, 0, 0, 0.315) solid 3px;
+  font-weight: 900;
+}
+
+table{
+	width: 100%;
+}
+form{
+	display: flex;
+	gap: 10px;
+}
+
+.details{
+	margin-top: 20px;
+}
+
+table td,th{
+   padding: 5px 10px;
+}
+
+table{
+	width: 100%;
+    border-collapse: collapse;
+}
+.table th,
+.table td {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+
+.actions{
+	margin:5px;
+	padding: 0 10px;
+	border: none;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+select {
+	width: 100%;
+	padding: 4px;
+	border-radius: 4px;
+	font-size: 16px;
+  }
